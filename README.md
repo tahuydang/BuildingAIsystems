@@ -26,3 +26,13 @@ git push
 
 ## Golden rules
 Never commit environments or secrets & Keys to version control
+
+## Day03
+create a `.env` file in the project level
+OPENAI_API_KEY=your_key_here
+
+install dependencies
+pip install -r requirements.txt
+
+run:
+python scripts/cli_assistant.py
